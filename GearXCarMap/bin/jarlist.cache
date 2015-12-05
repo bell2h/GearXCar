@@ -1,0 +1,7 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1437666435000 1184670 fde22d8d2ef6363324a3d79a1dd16c8645c25564 /Users/hyunhak/Documents/workspace/appcompat_v7/libs/android-support-v4.jar
+1448701690000 1184670 fde22d8d2ef6363324a3d79a1dd16c8645c25564 /Users/hyunhak/Documents/workspace/GearXCarMap/libs/android-support-v4.jar
+1448702725000 5889162 8434271bf62e19a955cda85dc23ac4258e58b32f /Users/hyunhak/Documents/workspace/GearXCarMap/libs/google-play-services.jar
+1448702725000 5889162 8434271bf62e19a955cda85dc23ac4258e58b32f /Users/hyunhak/Library/Android/sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar

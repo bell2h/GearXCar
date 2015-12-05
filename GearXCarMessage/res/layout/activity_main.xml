@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:keepScreenOn="true"
+    tools:context="com.gearxcar.message.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:alpha="0.65"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+    	android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    	android:layout_marginRight="@dimen/activity_horizontal_margin"
+    	android:layout_marginTop="@dimen/activity_vertical_margin"
+    	android:background="@android:color/black"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="sender"
+        android:textColor="@android:color/white"
+        android:textSize="16pt" />
+
+	<TextView
+	    android:id="@+id/message"
+	    android:layout_width="fill_parent"
+	    android:layout_height="300dp"
+	    android:gravity="center"
+	    android:inputType="textMultiLine"
+	    android:scrollbarAlwaysDrawVerticalTrack="true"
+	    android:scrollbars="vertical"
+	    android:text="message comes and will be displayed on this message box. It can be replied by Gear S2."
+	    android:textColor="@android:color/white"
+	    android:textSize="40sp" />
+
+	</LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight=".5">
+
+		<Gallery
+		    android:id="@+id/gallery"
+		    android:background="#5FFF"
+		    android:layout_width="match_parent"
+		    android:layout_height="100dp"
+		    android:layout_gravity="center_vertical"
+		    android:unselectedAlpha="0.15" />
+
+	</LinearLayout>
+    
+</LinearLayout>

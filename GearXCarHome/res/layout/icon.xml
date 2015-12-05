@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="640px"
+    android:layout_height="800px"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="640px"
+        android:layout_height="640px">
+
+        <ImageView
+            android:id="@+id/app_icon"
+	        android:layout_width="640px"
+	        android:layout_height="640px"
+	        android:layout_gravity="center"
+	        android:src="@drawable/ic_launcher" />
+        
+        <ImageView
+            android:id="@+id/gearxcar_icon"
+            android:layout_width="180px"
+            android:layout_height="180px"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_launcher"
+            android:visibility="gone" />
+		        
+    </FrameLayout>
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="app_title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
